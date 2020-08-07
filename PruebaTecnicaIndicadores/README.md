@@ -6,4 +6,4 @@ Esta prueba contiene solo un repositorio dode se encuentra el frontend
 
 Abrir una terminal en la ubicacion `front-chart` ejecutar el comando `npm install` una vez concluido la instalación ejecutar el comando `npm run start`
 
-Este comando generara la siguiente url http://localhost:4400/
+Este comando generara la siguiente url http://localhost:4200/
