@@ -2,6 +2,14 @@
 
 Esta repositorio contiene las dos pruebas que se solicitaron
 
+### Intalación previa
+
+Se requiere la instalacion de
+
+⋅* git
+⋅* node js
+⋅* Angular 10
+
 ### Prueba Tecnica Chat
 
 Contiene la generación de un chat utilizando las tecnologías de Angular y SocketIO con express
