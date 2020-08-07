@@ -6,9 +6,9 @@ Esta repositorio contiene las dos pruebas que se solicitaron
 
 Se requiere la instalacion de
 
-⋅⋅* git
-⋅⋅* node js
-⋅⋅* Angular 10
+* git
+* node js
+* Angular 10
 
 ### Prueba Tecnica Chat
 
