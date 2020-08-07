@@ -7,8 +7,16 @@ Esta repositorio contiene las dos pruebas que se solicitaron
 Se requiere la instalacion de
 
 * git
+
+  https://git-scm.com/downloads
+  
 * node js
+
+  https://nodejs.org/en/
+  
 * Angular 10
+
+  https://angular.io/guide/setup-local
 
 ### Prueba Tecnica Chat
 
