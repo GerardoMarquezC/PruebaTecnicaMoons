@@ -1,0 +1,9 @@
+<div class="legend-indicator-container">
+    <div *ngFor="let item of data" class="legend-indicator-item">
+        <text [style.color]="item.color" class="legend-text-title">{{item.key}}</text>
+        <div>
+            <text class="legend-text-percent">{{item.percent}}</text>
+            <text class="legend-text-value">{{item.value}}</text>
+        </div>
+    </div>
+</div>

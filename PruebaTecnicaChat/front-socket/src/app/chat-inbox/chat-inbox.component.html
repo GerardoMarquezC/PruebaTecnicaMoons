@@ -1,0 +1,30 @@
+<section class="msger">
+  <header class="msger-header">
+    <div class="msg-header-img" style="background-image: url(https://image.flaticon.com/icons/svg/145/145867.svg)"></div>
+    <input id="inputName" class="input-title" type="text" placeholder="Cual es tu nombre?"  [(ngModel)]="user" (keyup)="$event.keyCode == 13 && focusMsg()"/>
+  </header>
+
+  <main class="msger-chat" id="msger-chat">
+
+    <div *ngFor="let msg of messages" [ngClass]="msg.rightMsg == true ? 'msg right-msg' : 'msg left-msg'">
+      <div class="msg-img" style="background-image: url(https://image.flaticon.com/icons/svg/145/145867.svg)"></div>
+
+      <div class="msg-bubble">
+        <div class="msg-info">
+          <div class="msg-info-name">{{msg.user}}</div>
+          <div class="msg-info-time">{{msg.date}}</div>
+        </div>
+
+        <div class="msg-text">
+          {{msg.message}}
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="msger-inputarea">
+    <input id="inputMsg" type="text" class="msger-input" placeholder="Escriba su mensaje..." [(ngModel)]="message"
+      (keyup)="$event.keyCode == 13 && sendMessage()">
+    <button type="submit" class="msger-send-btn" (click)="sendMessage()">Enviar</button>
+  </div>
+</section>

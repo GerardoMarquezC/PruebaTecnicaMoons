@@ -1,0 +1,24 @@
+.d3-chart{
+    width: 220px;
+    height: 220px;
+    margin: 15px;
+}
+
+.inside {
+    font-size: 25px;
+}
+
+.data {
+    font-size: 20px;
+    fill: grey;
+}
+
+.line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 2px;
+  }
+  
+  .area {
+    fill: lightsteelblue;
+  }

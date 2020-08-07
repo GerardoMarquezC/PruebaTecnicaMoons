@@ -1,0 +1,28 @@
+.legend-indicator-container{
+    flex-direction: row-reverse;
+    display: flex;
+}
+
+.legend-indicator-item{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.legend-text-title{
+    margin: 0 10px 5px 10px;
+    font-weight: 800;
+}
+
+.legend-text-percent{
+    margin: 0 10px 0 10px;
+    color: darkslategrey;
+    font-weight: 700;
+}
+.legend-text-value{
+    margin: 0 10px 0 10px;
+    color: darkgray;
+    font-weight: 400;
+}

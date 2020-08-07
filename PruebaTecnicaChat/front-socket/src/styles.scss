@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+    --body-bg: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    --msger-bg: #fff;
+    --border: 2px solid #ddd;
+    --left-msg-bg: #ececec;
+    --right-msg-bg: #579ffb;
+    --primary-color: #1A3365;
+    --secundary-color: #FF4343;
+    --secundary-light-color: #FFBB00;
+    --light-color: #ffffff;
+  }
+
+  
+html{
+    box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  background: #fff;
+  font-family: Helvetica, sans-serif;
+}
